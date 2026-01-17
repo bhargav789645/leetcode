@@ -18,7 +18,7 @@ class Solution {
                     int width = right - left;
                     int height = top - bottom;
                     int side = Math.min(width,height);
-                    area = Math.max(area,1l * side*side);
+                    area = Math.max(area, (long)side*side);
                     }
             }
         }
